@@ -55,42 +55,47 @@ D7 = X Y Z
 ## Figure -04 8 to 3 Decoder implementation 
 
 ### Procedure
-/* write all the steps invloved */
+Step 1: Create module encoder and decoder.
+Step 2: Get inputs and outputs for encoders and decoders.
+Step 3: Perform "or" operation for encoder and "and" logic for decoders.
+Step 4: Perform RTL LOGIC and get waveform.
+Step-5: End the module.
 
 
 
 ### PROGRAM 
-/*
+
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: ARJUN N S
+RegisterNumber:  212223230020
 
+## CODE:
+### ENCODER:
+![ENCODER CODE](https://github.com/NSArjun/Experiment-08-Encoders-and-decoders-/assets/148233801/5fb9f3a2-6545-49f5-9a3b-c7553355a892)
 
+### DECODER:
+![DECODER CODE](https://github.com/NSArjun/Experiment-08-Encoders-and-decoders-/assets/148233801/a5eb8b20-8d5e-472b-b4b6-917cea6a1ed1)
 
+## RTL LOGIC: 
+### ENCODER:
+![ENCODER LOGIC](https://github.com/NSArjun/Experiment-08-Encoders-and-decoders-/assets/148233801/db1ad411-9b99-42b9-9ff4-1b6e0553b5c0)
 
+### DECODER:
+![DECODER LOGIC](https://github.com/NSArjun/Experiment-08-Encoders-and-decoders-/assets/148233801/c4d9b72b-9572-4fc5-84e6-08a7dec5158e)
 
+## TIMING DIGRAMS  
+### ENCODER:
+![ENCODER TIME](https://github.com/NSArjun/Experiment-08-Encoders-and-decoders-/assets/148233801/1cc9e5db-e8d3-457c-a08b-cf1d20615086)
 
-### RTL LOGIC  
+### DECODER:
+![DECODER TIME](https://github.com/NSArjun/Experiment-08-Encoders-and-decoders-/assets/148233801/d459b455-3eec-494d-af98-0efcaa278512)
 
+## TRUTH TABLE 
+### ENCODER:
+![ENCODER TT](https://github.com/NSArjun/Experiment-08-Encoders-and-decoders-/assets/148233801/101df939-83cd-455b-86e4-6da9a007a407)
 
+### DECODER:
+![DECODER T](https://github.com/NSArjun/Experiment-08-Encoders-and-decoders-/assets/148233801/68a38638-86f3-4761-abbd-87d8323c000e)
 
-
-
-
-
-
-### TIMING DIGRAMS  
-
-
-
-
-
-### TRUTH TABLE 
-
-
-
-
-
-
-### RESULTS 
+### RESULTS:
+Thus the program to desing encoder and decoder is done.
